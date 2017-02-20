@@ -3,4 +3,10 @@
     <string name="play_text">PLAY</string>
     <string name="scores_text">SCORES</string>
     <string name="settings_text">SETTINGS</string>
+    <string name="name_text">Nombre</string>
+    <string name="name_hint">Introduce tu nombre</string>
+    <string name="num_text">¿Cuantas veces quieres solicitar ayuda para contestar?</string>
+    <string name="num_ayudas_hint">0,1,2 o 3 veces</string>
+    <string name="btAmigo_text">Añadir amigo</string>
+    <string name="btAmigo_hint">Introduce el nombre de tu amigo</string>
 </resources>

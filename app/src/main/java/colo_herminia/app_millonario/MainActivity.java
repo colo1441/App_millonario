@@ -24,16 +24,19 @@ public class MainActivity extends AppCompatActivity {
             // Activity for getting a new quotation and adding it to favourites
             case R.id.bPlay:
                 intent = new Intent(this, PlayActivity.class);
+                startActivity(intent);
                 break;
 
             // Activity for displaying and managing the favourite quotations
             case R.id.bScores:
                 intent = new Intent(this, ScoresActivity.class);
+                startActivity(intent);
                 break;
 
             // Activity for configuring the application
             case R.id.bSettings:
                 intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
                 break;
 
         }

@@ -10,4 +10,84 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="colo_herminia.juego_millonario.SettingsActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/name_text"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tvNombre"
+            android:layout_weight="0.14"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etNombre"
+            android:hint="@string/name_hint" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="142dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/num_text"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tvAyudas"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etAyudas"
+                android:layout_weight="1"
+                android:hint="@string/num_ayudas_hint" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/btAmigo_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btAmigo"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/btAmigo_hint"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tvAmigo"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </LinearLayout>
 </RelativeLayout>
