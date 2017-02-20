@@ -38,8 +38,9 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:drawableBottom="@drawable/play"
+                    android:onClick="dashboardButtonClicked"
                     style="@style/DashboardButton"
-                    android:onClick="dashboardButtonClicked (MainActivity)" />
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -65,7 +66,7 @@
                     android:background="@android:color/transparent"
                     android:drawableBottom="@drawable/scores"
                     style="@style/DashboardButton"
-                    android:onClick="dashboardButtonClicked (MainActivity)" />
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
